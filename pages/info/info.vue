@@ -11,7 +11,7 @@
 		</text>
 			</view> -->
 		
-			<h2>{{news.ltitle}}</h2>
+			<h3>{{news.ltitle}}</h3>
 			<p>{{news.digest}}	</p>
 			<!-- <img :src=news.imgsrc alt="" mode="widthFix"> -->
 			<image :src=news.imgsrc mode="widthFix"></image>

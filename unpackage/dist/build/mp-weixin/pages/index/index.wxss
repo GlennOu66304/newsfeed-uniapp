@@ -1,0 +1,1 @@
+view{width:100%}.news-list{display:flex;width:94%;padding:10rpx 3%;flex-wrap:nowrap;margin:12rpx 0}.news-list image{width:200rpx;margin-right:12rpx;flex-shrink:0}.news-title{width:100%;height:auto;font-size:28rpx}
