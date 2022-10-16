@@ -22,4 +22,7 @@ You need to download the encrypt file from wechat, then build the file， after 
 
 [uni-app发行到微信小程序](https://uniapp.dcloud.net.cn/tutorial/build/publish-mp-weixin-cli.html)  
 
-[CLI 发行uni-app到微信小程序](
+[CLI 发行uni-app到微信小程序]((https://uniapp.dcloud.net.cn/tutorial/build/publish-mp-weixin-cli.html)
+
+If you use the third party api, then you need to register the domain of this api in the wechat development 
+[小程序服务器域名配置常见错误及解决方法](https://kf.qq.com/faq/1706236NjINj1706236VRZBR.html)   

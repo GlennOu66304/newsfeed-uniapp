@@ -161,10 +161,10 @@ var _self;var _default =
   onLoad: function onLoad(e) {
     _self = this;
     uni.request({
-      url: "http://c.3g.163.com/nc/article/list/T1348648517839/0-20.html",
+      url: "https://c.3g.163.com/nc/article/list/T1348648517839/0-20.html",
       success: function success(res) {
         _self.news = res.data.T1348648517839[0];
-        console.log(_self.news);
+        // console.log(_self.news);
       } });
 
   } };exports.default = _default;

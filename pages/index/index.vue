@@ -2,7 +2,7 @@
 	<view style="flex-wrap:wrap;">
 	<navigator class="news-list" url="/pages/info/info"
 	
-	v-for="(item, index) in news">
+	v-for="(item, index) in news" :key="index">
 		<image :src=item.imgsrc mode="widthFix"></image>
 		<view class="news-title">
 		<h4>{{item.ltitle}}</h4>
@@ -31,7 +31,7 @@
 			  uni.request(
 			  
 			  {
-				url:"http://c.3g.163.com/nc/article/list/T1348648517839/0-20.html",
+				url:"https://c.3g.163.com/nc/article/list/T1348648517839/0-20.html",
 				success:(res)=>{
 					// console.log(res);
 				_self.news = res.data.T1348648517839;
